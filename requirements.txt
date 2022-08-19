@@ -1,0 +1,8 @@
+Flask<2
+pymongo
+dnspython
+Flask_Cors
+Flask-Bcrypt
+flask-jwt-extended==3.25.0
+Werkzeug<2
+MarkupSafe==2.0.1

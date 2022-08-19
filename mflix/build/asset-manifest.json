@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2637239d.chunk.css",
+    "main.js": "/static/js/main.45964637.chunk.js",
+    "main.js.map": "/static/js/main.45964637.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9b71e54e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9b71e54e.js.map",
+    "static/js/2.3cb41680.chunk.js": "/static/js/2.3cb41680.chunk.js",
+    "static/js/2.3cb41680.chunk.js.map": "/static/js/2.3cb41680.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.1a9102de6abe0fe1cb8aee2648f5e3d1.js": "/precache-manifest.1a9102de6abe0fe1cb8aee2648f5e3d1.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.2637239d.chunk.css.map": "/static/css/main.2637239d.chunk.css.map",
+    "static/js/2.3cb41680.chunk.js.LICENSE.txt": "/static/js/2.3cb41680.chunk.js.LICENSE.txt",
+    "static/js/main.45964637.chunk.js.LICENSE.txt": "/static/js/main.45964637.chunk.js.LICENSE.txt",
+    "static/media/mongoleaf.png": "/static/media/mongoleaf.0ebc1843.png",
+    "static/media/pixelatedLeaf.svg": "/static/media/pixelatedLeaf.6c93bd20.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9b71e54e.js",
+    "static/js/2.3cb41680.chunk.js",
+    "static/css/main.2637239d.chunk.css",
+    "static/js/main.45964637.chunk.js"
+  ]
+}
