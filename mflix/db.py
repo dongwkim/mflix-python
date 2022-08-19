@@ -162,39 +162,12 @@ def get_movie(id):
                 '$match': {
                     '_id': ObjectId(id)
                 }
-            }, {
-                '$lookup': {
-                    'from': 'comments', 
-                    'let': {
-                        'movieid': '$_id'
-                    }, 
-                    'pipeline': [
-                        {
-                            '$match': {
-                                '$expr': {
-                                    '$eq': [
-                                        '$$movieid', '$movie_id'
-                                    ]
-                                }
-                            }
-                        }, {
-                            '$sort': {
-                                'date': -1
-                            }
-                        }, {
-                            '$limit': 20
-                        }
-                    ], 
-                    'as': 'comments'
-                }
             }
         ]
 
         movie = db.movies.aggregate(pipeline).next()
         return movie
 
-    # TODO: Error Handling
-    # If an invalid ID is passed to `get_movie`, it should return None.
     except (StopIteration) as _:
 
         """
