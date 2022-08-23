@@ -6,3 +6,4 @@ Flask-Bcrypt
 flask-jwt-extended==3.25.0
 Werkzeug<2
 MarkupSafe==2.0.1
+gunicorn==20.1.0
